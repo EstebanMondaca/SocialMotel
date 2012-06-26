@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	
+	<LinearLayout android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+	    
+	    <Button android:id="@+id/BtnSatelite"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:text="Satelite" />
+			
+		<Button android:id="@+id/BtnCentrar"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Centrar" />
+			
+		<Button android:id="@+id/BtnAnimar"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Animar" />
+			
+		<Button android:id="@+id/BtnMover"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Mover" />
+	    
+	</LinearLayout>
+	
+	<com.google.android.maps.MapView
+		android:id="@+id/mapa"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:apiKey="069HqZ_pWhtBRo0VMnA40qOCbTDjyTzkfwj9fnA"
+		android:clickable="true" />
+		
+</LinearLayout>
